@@ -30,7 +30,10 @@ function gameEngine(){
         snakeElement=document.createElement('div');
         snakeElement.style.gridRowStart=e.y;
         snakeElement.style.gridColumnStart=e.x;
+        snakeElement.classList.add('food')
+        board.appendChild(snakeElement)
     })
+    guguf
 }
 
 
